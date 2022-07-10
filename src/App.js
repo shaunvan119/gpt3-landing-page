@@ -15,8 +15,18 @@ import Whatgpt3 from "./containers/whatGPT3/Whatgpt3";
 
 function App() {
   return (
-    <div>
-      <h1>GPT-3</h1>
+    <div className="App">
+    <div className="gradient__bg">
+      <Navbar/>
+      <Header/>
+    </div>
+      <Brand/>
+      <Whatgpt3/>
+      <Features/>
+      <Possibility/>
+      <Cta/>
+      <Blog/>
+      <Footer/>
     </div>
   );
 }
