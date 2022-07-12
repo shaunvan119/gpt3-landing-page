@@ -9,6 +9,7 @@ import Footer from "./containers/footer/Footer";
 import Header from "./containers/header/Header";
 import Possibility from "./containers/possibility/Possibility";
 import Whatgpt3 from "./containers/whatGPT3/Whatgpt3";
+import './App.css'
 
 
 
